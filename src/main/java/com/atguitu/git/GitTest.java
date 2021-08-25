@@ -38,11 +38,13 @@ public class GitTest {
         Student s2 = new Student("左冷禅", 33);
         Student s3 = new Student("东方不败", 35);
         Student s4 = new Student("吕布", 29);
+        Student s5 = new Student("TUG", 100);
 
         arr.add(s1);
         arr.add(s2);
         arr.add(s3);
         arr.add(s4);
+        arr.add(s5);
 
         for (Student s : arr) {
             String str = s.getName() + ", " + s.getAge();
