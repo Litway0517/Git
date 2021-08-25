@@ -17,13 +17,14 @@ public class ArrayTest {
         ArrayList<Integer> array = new ArrayList<Integer>();
 
         array.add(10);
+        array.add(113);
+        array.add(138);
+        array.add(149);
         array.add(80);
         array.add(53);
         array.add(59);
         array.add(99);
-        array.add(113);
-        array.add(138);
-        array.add(149);
+
 
         Collections.sort(array);
         for (Integer i : array) {
