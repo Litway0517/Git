@@ -25,6 +25,7 @@ public class ArrayTest {
         array.add(59);
         array.add(99);
         array.add(177);
+        array.add(256);
 
 
         Collections.sort(array);
