@@ -1,6 +1,7 @@
 package com.atguitu.git;
 
 
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -39,6 +40,7 @@ public class GitTest {
         Student s3 = new Student("东方不败", 35);
         Student s4 = new Student("吕布", 29);
         Student s5 = new Student("TUG", 100);
+        Student s6 = new Student("天津工业大学-计算机科学与技术学院", 110);
 
         arr.add(s1);
         arr.add(s2);
