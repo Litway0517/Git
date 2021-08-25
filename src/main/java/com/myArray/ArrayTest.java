@@ -23,6 +23,7 @@ public class ArrayTest {
         array.add(99);
         array.add(113);
         array.add(138);
+        array.add(149);
 
         Collections.sort(array);
         for (Integer i : array) {
