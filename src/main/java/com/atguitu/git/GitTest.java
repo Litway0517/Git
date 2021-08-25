@@ -47,6 +47,9 @@ public class GitTest {
         arr.add(s3);
         arr.add(s4);
         arr.add(s5);
+        arr.add(s6);
+        arr.add(s7);
+
 
         for (Student s : arr) {
             String str = s.getName() + ", " + s.getAge();
