@@ -1,5 +1,6 @@
 package com.atguitu.git;
 
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -21,11 +22,29 @@ public class GitTest {
         array.add("风清扬");
         array.add("刘正风");
 
-
         Iterator<String> it = array.iterator();
         while ((it.hasNext())) {
             String s = it.next();
             System.out.println(s);
+        }
+        System.out.println("--------");
+
+
+        // 创建学生集合
+        ArrayList<Student> arr = new ArrayList<Student>();
+
+        // 创建学生对象
+        Student s1 = new Student("风清扬", 33);
+        Student s2 = new Student("左冷禅", 33);
+        Student s3 = new Student("东方不败", 35);
+
+        arr.add(s1);
+        arr.add(s2);
+        arr.add(s3);
+
+        for (Student s : arr) {
+            String str = s.getName() + ", " + s.getAge();
+            System.out.println(str);
         }
 
     }
