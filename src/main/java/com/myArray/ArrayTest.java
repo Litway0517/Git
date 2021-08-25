@@ -20,6 +20,7 @@ public class ArrayTest {
         array.add(80);
         array.add(53);
         array.add(59);
+        array.add(99);
 
         Collections.sort(array);
         for (Integer i : array) {
