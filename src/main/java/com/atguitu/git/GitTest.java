@@ -37,25 +37,19 @@ public class GitTest {
         Student s1 = new Student("风清扬", 33);
         Student s2 = new Student("左冷禅", 33);
         Student s3 = new Student("东方不败", 35);
-<<<<<<< HEAD
         Student s4 = new Student("吕布", 29);
         Student s5 = new Student("TUG", 100);
         Student s6 = new Student("天津工业大学-计算机科学与技术学院", 110);
         Student s7 = new Student("天津工业大学", 110);
-=======
->>>>>>> a8ffb53 (first commit in IDEA! GOOD~)
 
         arr.add(s1);
         arr.add(s2);
         arr.add(s3);
-<<<<<<< HEAD
         arr.add(s4);
         arr.add(s5);
         arr.add(s6);
         arr.add(s7);
 
-=======
->>>>>>> a8ffb53 (first commit in IDEA! GOOD~)
 
         for (Student s : arr) {
             String str = s.getName() + ", " + s.getAge();
