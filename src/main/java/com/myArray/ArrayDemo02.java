@@ -31,6 +31,7 @@ public class ArrayDemo02 {
         array.add("正确 -> 5针对性更改本项目的user.email为atguigu@163.com而不更改user.name, 再次push应该不会显示contributors. ");
         array.add("上次测试忘了更改");
         array.add("正确 -> 6针对性更改本项目的user.email为atguigu@163.com而不更改user.name, 再次push应该不会显示contributors. ");
+        array.add("正确 -> 7所有信息均修改为与GitHub一致! 再次push会显示contributors. ");
 
 
 
