@@ -34,6 +34,7 @@ public class ArrayDemo02 {
         array.add("正确 -> 7所有信息均修改为与GitHub一致! 再次push会显示contributors. ");
 
         array.add("~大功告成~" + "\n" + "开心写代码~~~");
+        array.add("再次提交的代码");
 
 
 
