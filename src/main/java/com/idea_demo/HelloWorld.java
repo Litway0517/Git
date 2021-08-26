@@ -13,5 +13,6 @@ public class HelloWorld {
         System.out.println("hello, world!");
         System.out.println("gitee push test~");
         System.out.println("gitee web test");
+        System.out.println("gitee push test~");
     }
 }
