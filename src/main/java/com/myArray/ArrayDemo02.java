@@ -19,6 +19,7 @@ public class ArrayDemo02 {
         array.add("master再次更新");
         array.add("更新本地的user.name和user.email");
         array.add("master 更新一次");
+        array.add("master 连续更新两次");
 
 
         for (String s : array) {
