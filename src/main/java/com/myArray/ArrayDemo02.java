@@ -24,9 +24,10 @@ public class ArrayDemo02 {
         array.add("不正确 -> 更改了GitHub上面的Primary Email邮箱为xmw0517@gmail.com, 那么应该不会显示contributors. 结论: 实际上仍会显示");
 
         array.add("不正确 -> 更改了本地Git的user.name为XMW之后, 再次push应该不会显示contributors. 仍然会显示");
-        array.add("1更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
-        array.add("2更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
-        array.add("3更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
+        array.add("不正确 -> 因为在这个项目中的config文件仍然是与GitHub相匹配的. 1更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
+        array.add("不正确 -> 因为在这个项目中的config文件仍然是与GitHub相匹配的. 2更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
+        array.add("不正确 -> 因为在这个项目中的config文件仍然是与GitHub相匹配的. 3更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
+        array.add("3针对性更改本项目的user.name为XMW而不更改user.email, 再次push应该仍会显示contributors. ");
 
 
 
