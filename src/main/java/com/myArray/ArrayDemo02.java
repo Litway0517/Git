@@ -26,6 +26,7 @@ public class ArrayDemo02 {
         array.add("不正确 -> 更改了本地Git的user.name为XMW之后, 再次push应该不会显示contributors. 仍然会显示");
         array.add("1更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
         array.add("2更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
+        array.add("3更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
 
 
 
