@@ -18,6 +18,8 @@ public class ArrayDemo02 {
         array.add("master分支更新");
         array.add("master再次更新");
         array.add("更新本地的user.name和user.email");
+        array.add("master 更新一次");
+
 
         for (String s : array) {
             System.out.println(s);
