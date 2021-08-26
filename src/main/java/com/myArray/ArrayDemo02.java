@@ -29,6 +29,8 @@ public class ArrayDemo02 {
         array.add("不正确 -> 因为在这个项目中的config文件仍然是与GitHub相匹配的. 3更改本地Git的user.email为xmw0517@163.com之后, 再次push应该不会显示contributors. ");
         array.add("正确 -> 4针对性更改本项目的user.name为XMW而不更改user.email, 再次push应该仍会显示contributors. ");
         array.add("正确 -> 5针对性更改本项目的user.email为atguigu@163.com而不更改user.name, 再次push应该不会显示contributors. ");
+        array.add("上次测试忘了更改");
+        array.add("正确 -> 6针对性更改本项目的user.email为atguigu@163.com而不更改user.name, 再次push应该不会显示contributors. ");
 
 
 
