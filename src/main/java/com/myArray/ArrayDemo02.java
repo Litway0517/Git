@@ -20,6 +20,7 @@ public class ArrayDemo02 {
         array.add("风清扬");
         array.add("东方不败");
         array.add("hot-fix 分支更新");
+        array.add("hot-fix 分支第二次更新");
 
         for (String s : array) {
             System.out.println(s);
