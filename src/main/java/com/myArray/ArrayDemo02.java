@@ -21,6 +21,7 @@ public class ArrayDemo02 {
         array.add("master 更新一次");
         array.add("master 连续更新两次");
         array.add("修改了user.name与user.email, 之后, GitHub开始统计commits与contributors");
+        array.add("更改了GitHub上面的Primary Email邮箱为xmw0517@gmail.com, 那么应该不会显示contributors. ");
 
 
         for (String s : array) {
