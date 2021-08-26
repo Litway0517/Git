@@ -16,6 +16,7 @@ public class ArrayDemo02 {
         ArrayList<String> array = new ArrayList<String>();
 
         array.add("master分支更新");
+        array.add("master再次更新");
 
         for (String s : array) {
             System.out.println(s);
