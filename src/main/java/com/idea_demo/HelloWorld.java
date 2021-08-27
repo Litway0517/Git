@@ -25,5 +25,7 @@ public class HelloWorld {
         System.out.println("修改用户名测试");
 
         System.out.println("刷新远程代码托管库代码");
+
+        System.out.println("再次提交代码至远程代码库");
     }
 }
