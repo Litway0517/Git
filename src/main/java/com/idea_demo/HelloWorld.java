@@ -23,5 +23,7 @@ public class HelloWorld {
         System.out.println("--------");
 
         System.out.println("修改用户名测试");
+
+        System.out.println("刷新远程代码托管库代码");
     }
 }
